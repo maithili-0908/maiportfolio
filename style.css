@@ -275,3 +275,62 @@ font-size:32px;
 }
 
 }
+.section-title {
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.progress {
+    height: 25px;
+    background-color: #e9ecef;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #007bff; /* Matching your blue theme */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-category h6 {
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.tech-category p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+.contact-info-box {
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.contact-info-box:hover {
+    transform: translateY(-5px);
+    border-color: #007bff;
+}
+
+.contact .form-control {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.contact .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
