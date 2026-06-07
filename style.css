@@ -334,3 +334,71 @@ font-size:32px;
     align-items: center;
     justify-content: center;
 }
+.certificate-list{
+    max-width:900px;
+    margin:auto;
+}
+
+.certificate-item{
+    background:#fff;
+    padding:20px 25px;
+    margin-bottom:18px;
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s ease;
+}
+
+.certificate-item:hover{
+    transform:translateY(-5px);
+}
+
+.certificate-item div{
+    font-size:18px;
+    font-weight:500;
+}
+
+.certificate-item i{
+    font-size:22px;
+}
+@media(max-width:768px){
+
+    .certificate-item{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+}
+.tech-stack {
+  margin: 15px 0;
+}
+
+.tech-stack .badge {
+  margin: 4px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+}
+
+.navbar .nav-link {
+    color: #0d6efd !important;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #0d6efd;
+    transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
