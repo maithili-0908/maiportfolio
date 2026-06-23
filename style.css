@@ -194,19 +194,24 @@ width:0;
 padding:100px 0;
 background:#f8fbff;
 }
-
-.project-card{
-border:none;
-border-radius:20px;
-overflow:hidden;
-transition:0.4s;
-background:white;
+.project-btn {
+    margin: 10px 5px 0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+.project-card {
+    border: 1px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
 }
 
-.project-card:hover{
-transform:translateY(-12px);
-box-shadow:0 15px 35px rgba(0,0,0,0.1);
+.project-card:hover {
+    transform: translateY(-5px);
 }
+
+
 
 .project-card img{
 height:220px;
