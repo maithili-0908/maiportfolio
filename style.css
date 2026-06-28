@@ -190,37 +190,62 @@ width:0;
 
 /* Projects */
 
+/* ================= Projects ================= */
+
 .projects{
-padding:100px 0;
-background:#f8fbff;
-}
-.project-btn {
-    margin: 10px 5px 0;
-    padding: 10px 25px;
-    border-radius: 30px;
-    font-weight: 500;
-}
-.project-card {
-    border: 1px solid #000;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: 0.3s ease;
+    padding:100px 0;
+    background:#f8fbff;
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
+.project-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+    display:flex;
+    flex-direction:column;
+    height:100%;
 }
 
-
+.project-card:hover{
+    transform:translateY(-8px);
+}
 
 .project-card img{
-height:220px;
-object-fit:cover;
-transition:0.4s;
+    width:100%;
+    height:220px;
+    object-fit:cover;
 }
 
-.project-card:hover img{
-transform:scale(1.05);
+.project-card .card-body{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    text-align:center;
+}
+
+.project-card .card-title{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.project-card .card-text{
+    flex-grow:1;
+}
+
+.tech-stack{
+    margin:15px 0;
+}
+
+.tech-stack .badge{
+    margin:4px;
+    padding:8px 12px;
+}
+
+.project-btn{
+    margin:5px;
+    min-width:140px;
 }
 
 .card-title{
